@@ -73,7 +73,7 @@ def parse_args() -> argparse.Namespace:
 
 if __name__ == "__main__":
     args = parse_args()
-    if args.api_key == "YOUR_MATERIALS_PROJECT_API_KEY":
+    if args.api_key == "l0Bc43Gduw6qyUP3QsUl8vIqymCm7FyG":
         raise ValueError(
             "Please provide a valid Materials Project API key via --api-key or replace placeholder in main.py"
         )
