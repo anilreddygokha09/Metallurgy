@@ -64,7 +64,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--api-key",
         type=str,
-        default="YOUR_MATERIALS_PROJECT_API_KEY",
+        default="l0Bc43Gduw6qyUP3QsUl8vIqymCm7FyG",
         help="Materials Project API key",
     )
     parser.add_argument("--num-materials", type=int, default=1000, help="Number of materials to fetch")
