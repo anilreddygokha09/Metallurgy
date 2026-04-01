@@ -64,7 +64,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--api-key",
         type=str,
-        default="l0Bc43Gduw6qyUP3QsUl8vIqymCm7FyG",
+        default="YOUR_MATERIALS_PROJECT_API_KEY",
         help="Materials Project API key",
     )
     parser.add_argument("--num-materials", type=int, default=1000, help="Number of materials to fetch")
@@ -73,7 +73,7 @@ def parse_args() -> argparse.Namespace:
 
 if __name__ == "__main__":
     args = parse_args()
-    if args.api_key == "l0Bc43Gduw6qyUP3QsUl8vIqymCm7FyG":
+    if args.api_key == "YOUR_MATERIALS_PROJECT_API_KEY":
         raise ValueError(
             "Please provide a valid Materials Project API key via --api-key or replace placeholder in main.py"
         )
